@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="tdnPYvg8tw8bxDMYClwD">
-    <mxGraphModel dx="1434" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bIBva6eTkF2jwUbDUuaH-4" value="No Caching" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="340" y="130" width="130" height="40" as="geometry" />
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-4" value="No Caching" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bIBva6eTkF2jwUbDUuaH-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-logos/24/bxl-react-128.png" vertex="1" parent="1">
           <mxGeometry x="460" y="308" width="84" height="84" as="geometry" />
@@ -45,6 +45,61 @@
         </mxCell>
         <mxCell id="bIBva6eTkF2jwUbDUuaH-15" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="690" y="320" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-24" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.41" y="745" as="sourcePoint" />
+            <mxPoint x="609.41" y="875" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="609.41" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.97" y="848" as="targetPoint" />
+            <mxPoint x="670" y="938" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="719.97" y="938" />
+              <mxPoint x="700.97" y="938" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-27" value="Caching With Cloud Front" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="225" y="565" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-logos/24/bxl-react-128.png" vertex="1" parent="1">
+          <mxGeometry x="430" y="748" width="84" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-29" value="Amazon Route 53" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
+          <mxGeometry x="570" y="620" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-30" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="748" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-31" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
+          <mxGeometry x="570" y="890" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268.5" y="790.2299999999999" as="sourcePoint" />
+            <mxPoint x="413.5" y="789.41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="308.49999999999994" y="790.2299999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIBva6eTkF2jwUbDUuaH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="658" as="targetPoint" />
+            <mxPoint x="470" y="748" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="658" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
